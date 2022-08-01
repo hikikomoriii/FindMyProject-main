@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <nav>
+          <label class="logo"> Find-My-Project </label>
+          <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contributors</a></li>
+            <li><a href="#">Contact-Us</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <section>
+        <div class="info">
+          <h1 id="info-head">Quick Contact</h1>
+          <p id="caption">get instant project ideas....</p>
+          <input
+            class="form__field"
+            type="input"
+            placeholder="Name"
+            name="name"
+            id="name"
+            required
+          />
+          <input
+            class="form__field"
+            type="email"
+            placeholder="abc@gmail.com"
+            name="email"
+            id="email"
+            required
+          />
+          <input
+            class="form__field"
+            type="text"
+            placeholder="College Name"
+            name="college-name"
+            id="college-name"
+            required
+          />
+          <input list="stream" name="stream" class="form__field" placeholder="Stream"/></label>
+          <datalist id="stream">
+            <option value="CSE">
+            <option value="IT">
+            <option value="ECE">
+          </datalist>
+          
+          <input list="proj-idea" name="proj-idea" class="form__field" placeholder="Project Domain"/></label>
+          <datalist id="proj-dom">
+            <option value="CSE">
+            <option value="IT">
+            <option value="ECE">
+          </datalist>
+        </div>
+      </section>
+    </header>
+  </body>
+</html>
